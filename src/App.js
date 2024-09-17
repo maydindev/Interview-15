@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import WordByWord from "./WordByWord"
 
 function App() {
-  return <WordByWord />;
-}
 
-const WordByWord = () => {
-  // KODUNUZ BURAYA GELECEK
-};
+  return (
+    <div>
+      <WordByWord />
+    </div>
+  )
+}
 
 export default App;
